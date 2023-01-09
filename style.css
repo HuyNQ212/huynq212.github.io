@@ -1,0 +1,63 @@
+section {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    background: url("tieu-quoc-dubai-duong-chan-troi-cao-nhat-the-gioi.jpg") center no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#summary {
+    margin: auto;
+    color: white;
+}
+
+#summary hr {
+    opacity: 0.75;
+}
+
+#summary ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#summary ul li {
+    float: left;
+    padding: 0 15px;
+}
+
+#summary ul li a {
+    color: white;
+}
+
+#summary ul li a i {
+    font-size: 24px;
+    text-shadow: 0 0 15px black;
+}
+
+#down-arrow {
+    position: absolute;
+    bottom: 0;
+    width: 42px;
+    height: 42px;
+    z-index: 5;
+}
+#down-arrow a {
+    line-height: 100%;
+    font-size: 24px;
+    color: white;
+}
+
+
+
